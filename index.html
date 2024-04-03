@@ -19,10 +19,10 @@
         <div class="w-[90vw] md:w-[600px] lg:w-[800px] mx-auto md:p-8 pt-6 pb-3">
             <div class="max-w-full flex justify-between text-grayishBlue pl-2 md:pl-0">
                 <h1 class="text-[26px] font-semibold dark:text-white">DevDetective</h1>
-                <div class="flex gap-x-3 md:gap-x-8 items-center justify-center">
+                <div class="flex gap-x-3 md:gap-x-4 items-center justify-center">
                     <p data-theme-text
                         class="uppercase w-fit text-xs font-semibold tracking-[0.125rem] dark:text-white">Dark</p>
-                    <div data-toggle-btn class="h-[1.25rem] mb-1 md:mb-2 hover:cursor-pointer">
+                    <div data-toggle-btn class="h-fit mb-1 pt-1.5 sm:pt-1 md:pt-1.5 md:mb-2 hover:cursor-pointer">
                         <div data-dark-icon>
                             <img src="assets/moon-icon.svg" alt="toggle-dark">
                         </div>
@@ -38,7 +38,7 @@
                         <label for="username" class="h-full"><img src="assets/search-icon.svg"
                                 class="h-5 hover:cursor-pointer" alt="search-icon"></label>
                         <input data-input type="text" id="username"
-                            class="min-w-[77%] md:w-[60%] ml-1.5 md:ml-4 focus:outline-none dark:text-white dark:bg-darkContentBg text-grayishBlue placeholder:text-grayishBlue/70 placeholder:dark:text-white text-sm md:text-base lg:text-lg"
+                            class="min-w-[77%] md:w-[60%] lg:w-[15rem] ml-1.5 md:ml-4 focus:outline-none dark:text-white dark:bg-darkContentBg text-grayishBlue placeholder:text-grayishBlue/70 placeholder:dark:text-white text-sm md:text-base lg:text-lg"
                             placeholder="Enter GitHub username...">
                         <div data-input-clear
                             class="hidden md:mr-8 font-semibold px-1.5 hover:cursor-pointer dark:text-white">X</div>
@@ -47,7 +47,7 @@
                         <button data-search-btn type="submit"
                             class="bg-brightBlue text-white rounded-xl md:px-[1.75rem] px-3.5 py-3 md:py-3.5 font-semibold mr-1.5 hover:opacity-80 active:scale-[0.97] text-sm md:text-base">Search</button>
                         <span data-error
-                            class="hidden absolute bottom-[4rem] -left-[1.75rem] md:bottom-[4.25rem] md:-left-[0.5rem] lg:-left-[10.5rem] lg:bottom-[0.85rem] h-fit w-[200px] text-errRed font-semibold text-xs md:text-sm lg:text-base">Invalid
+                            class="hidden absolute bottom-[4rem] -left-[1.75rem] md:bottom-[4.25rem] md:-left-[0.5rem] lg:-left-[10.5rem] lg:-bottom-[0.5rem] h-fit w-[200px] text-errRed font-semibold text-xs md:text-sm lg:text-base">Invalid
                             Username</span>
                     </div>
                 </form>
